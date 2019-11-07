@@ -1,0 +1,53 @@
+{
+  "id": "/subscriptions/15bf4c5b-28b2-4902-a492-15b7d844be3f/resourceGroups/text/providers/Microsoft.Resources/deployments/Microsoft.CognitiveServicesTextTranslation",
+  "name": "Microsoft.CognitiveServicesTextTranslation",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "marketplaceItemId": "Microsoft.CognitiveServicesTextTranslation",
+    "primaryResourceId": "/subscriptions/15bf4c5b-28b2-4902-a492-15b7d844be3f/resourcegroups/text/providers/Microsoft.CognitiveServices/accounts/E-Flaskblog"
+  },
+  "properties": {
+    "templateHash": "12479349499275681034",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "E-Flaskblog"
+      },
+      "location": {
+        "type": "String",
+        "value": "global"
+      },
+      "apiType": {
+        "type": "String",
+        "value": "TextTranslation"
+      },
+      "sku": {
+        "type": "String",
+        "value": "S1"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Running",
+    "timestamp": "2019-11-07T18:59:58.4025188Z",
+    "duration": "PT5.7630937S",
+    "correlationId": "03c6fa3b-00ca-4e05-996f-b381aefaba94",
+    "providers": [
+      {
+        "namespace": "Microsoft.CognitiveServices",
+        "resourceTypes": [
+          {
+            "resourceType": "accounts",
+            "locations": [
+              "global"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "validationLevel": "Template"
+  }
+}
